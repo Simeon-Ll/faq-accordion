@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Static;
+  src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  font-family: Static;
+}
+
+h1,h2,h3,h4{
+  font-weight: 700;
+}
